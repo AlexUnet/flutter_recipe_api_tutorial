@@ -9,7 +9,7 @@ class RecipeApi {
 
     final response = await http.get(url, headers: {
       "x-rapidapi-host": "yummly2.p.rapidapi.com",
-      "x-rapidapi-key": "46e0847e1fmsh34a6d91be45903fp1877a6jsne7dbf3e50799",
+      "x-rapidapi-key": "",
       "useQueryString": "true"
     });
     Map data = jsonDecode(response.body);
